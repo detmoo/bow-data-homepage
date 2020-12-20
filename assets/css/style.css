@@ -417,8 +417,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   background-image: url("../img/background_blank_white.jpg");
   background-size: cover;
-  padding: 0px 0;
-  color: #000000;
+  padding: 150px 0;
+  color: #ffffff;
   width: 100%;
   height: 100vh;
 }
@@ -427,7 +427,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   content: '';
   z-index: 0;
   position: absolute;
-  background: rgba(0, 0, 0, 0.65);
+  background: #ffffff;
   width: 100%;
   height: 100%;
   left: 0;
