@@ -417,7 +417,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   background-image: url("../img/background_blank_white.jpg");
   background-size: cover;
-  padding: 150px 0;
+  padding: 0px 0;
   color: #000000;
   width: 100%;
   height: 100vh;
