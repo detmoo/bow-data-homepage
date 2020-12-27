@@ -444,6 +444,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .hero-brand {
+  max-width: 100%;
   margin-bottom: 75px;
   display: inline-block;
 }
