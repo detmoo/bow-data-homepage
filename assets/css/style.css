@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   line-height: 1.55;
-  color: #ffffff;
+  color: #000000;
   font-size: 320;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
 }
@@ -568,6 +568,54 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #ffffff;
   margin-bottom: 45px;
 }
+
+/* ==================================================
+  Services Styling
+  ================================================== */
+  .services {
+    padding-bottom: 45px;
+  }
+  
+  .services h2 {
+    color: #E03A3F;
+  }
+  
+  .services-col {
+    display: table;
+    padding-bottom: 45px;
+  }
+  
+  .services-col > div > div {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  .services-col > div > div:last-child {
+    padding-left: 20px;
+  }
+  
+  .services-col .services-icon {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 15px;
+    background: #ffffff;
+    color: #E03A3F;
+    font-size: 24px;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .services-col h3 {
+    color: #E03A3F;
+  }
+  
+  .services-col p {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #999;
+  }
 
 /* ==================================================
   Features Styling
