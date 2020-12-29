@@ -838,6 +838,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .portfolio-grid .row > div .card .portfolio-over .card-title {
   color: #ffffff;
   font-size: 30px;
+  text-align: center;
 }
 
 .portfolio-grid .row > div .card .portfolio-over .card-text {
