@@ -569,6 +569,48 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 45px;
 }
 
+.welcome-col {
+  display: table;
+  padding-bottom: 45px;
+}
+  
+.welcome-col > div > div {
+  display: table-cell;
+  vertical-align: middle;
+}
+  
+.welcome-col > div > div:last-child {
+  padding-left: 20px;
+}
+  
+.welcome-col .welcome-icon {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 15px;
+  background-color: transparent;
+  color: #E03A3F;
+  font-size: 24px;
+  text-align: center;
+  line-height: 70px;
+  border-radius: 50%;
+  display: inline-block;
+}
+  
+.welcome-col h3 {
+  color: #E03A3F;
+}
+  
+.welcome-col p {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #999;
+}
+
+.welcome-col:hover {
+  opacity: 0.5;
+  background-color: #ffffff;
+}
+
 /* ==================================================
   Advisory Styling
   ================================================== */
@@ -618,7 +660,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
 
-
 /* ==================================================
   Services Styling
   ================================================== */
@@ -666,6 +707,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 14px;
     color: #999;
   }
+
 
 /* ==================================================
   Features Styling
@@ -813,6 +855,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   ================================================== */
 .team h2 {
   color: #E03A3F;
+}
+
+.team row {
+  justify-content: center;
 }
 
 .team .col-sm-3 {
