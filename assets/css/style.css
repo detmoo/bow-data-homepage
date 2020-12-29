@@ -604,6 +604,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #999;
+  background-color: transparent;
 }
 
 .welcome-col:hover {
@@ -857,7 +858,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #E03A3F;
 }
 
-.team row {
+.team .centred-row {
   justify-content: center;
 }
 
