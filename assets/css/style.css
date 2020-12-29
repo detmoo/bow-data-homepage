@@ -11,14 +11,14 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   line-height: 1.55;
-  color: #000000;
+  color: #999;
   font-size: 320;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
 }
 
 h1 {
   font-size: 40px;
-  color: #000000
+  color: #999
 }
 
 h2 {
@@ -859,7 +859,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .team .centred-row {
+  margin: auto;
   justify-content: center;
+  display: flex;
 }
 
 .team .col-sm-3 {
@@ -913,6 +915,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .team .card:hover .card-title-wrap .card-title,
 .team .card:hover .card-title-wrap .card-text {
   color: #ffffff;
+  text-align: center;
 }
 
 .team .team-over {
@@ -941,6 +944,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   display: block;
   margin: 0;
+  text-align: center;
 }
 
 .team .card-title-wrap .card-title {
