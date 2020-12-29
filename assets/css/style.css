@@ -944,6 +944,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   display: block;
   margin: 0;
+  text-align: center;
 }
 
 .team .card-title-wrap .card-title {
