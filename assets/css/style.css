@@ -859,7 +859,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .team .centred-row {
+  margin: auto;
   justify-content: center;
+  display: flex;
 }
 
 .team .col-sm-3 {
