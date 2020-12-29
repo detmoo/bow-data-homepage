@@ -838,7 +838,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 .portfolio-grid .row > div .card .portfolio-over .card-title {
   color: #ffffff;
   font-size: 30px;
-  text-align: center;
 }
 
 .portfolio-grid .row > div .card .portfolio-over .card-text {
@@ -916,6 +915,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .team .card:hover .card-title-wrap .card-title,
 .team .card:hover .card-title-wrap .card-text {
   color: #ffffff;
+  text-align: center;
 }
 
 .team .team-over {
