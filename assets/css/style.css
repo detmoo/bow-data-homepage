@@ -837,13 +837,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .portfolio-grid .row > div .card .portfolio-over .card-title {
   color: #ffffff;
-  font-size: 30px;
+  font-size: 18px;
 }
 
 .portfolio-grid .row > div .card .portfolio-over .card-text {
   color: #ffffff;
   opacity: .75;
   padding: 0 45px;
+  font-size: 12px;
 }
 
 .portfolio-grid .row > div .card:hover .portfolio-over {
