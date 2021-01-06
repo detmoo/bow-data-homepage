@@ -875,6 +875,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .team .card img {
   width: 75%;
+  align-content: center;
 }
 
 .team .card h4 {
