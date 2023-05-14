@@ -418,7 +418,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   background-image: url("../img/background_blank_white.jpg");
   background-size: cover;
-  padding: 150px 0;
+  padding: 70px 0;
   color: #ffffff;
   width: 100%;
   height: 100vh;
@@ -445,7 +445,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .hero-brand {
-  margin-bottom: 75px;
+  margin-bottom: 45px;
   display: inline-block;
 }
 
@@ -552,11 +552,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   Welcome Styling
   ================================================== */
 .welcome {
-  color: #ffffff;
-  height: 490px;
+  color: #6c757d; /* #6c757d */
+  height: 1000px;
   overflow: hidden;
   padding-top: 85px;
-  background: url("../img/detmoo-masthead-img.png") center top no-repeat;
+  background: url("../img/website_diagram.png") center top no-repeat;  /* #f7f7f7;  #edf6ff */
 }
 
 .welcome h2 {
@@ -565,13 +565,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .welcome p {
-  color: #ffffff;
+  color: #6c757d;
   margin-bottom: 45px;
 }
 
 .welcome-col {
   display: table;
+  margin-left: auto;
+  margin-right: auto;
   padding-bottom: 45px;
+  padding-left: 45px;
 }
   
 .welcome-col > div > div {
@@ -580,7 +583,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
   
 .welcome-col > div > div:last-child {
-  padding-left: 20px;
+  padding-left: 0px;
 }
   
 .welcome-col .welcome-icon {
@@ -708,6 +711,46 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 14px;
     color: #999;
   }
+
+  .overview-svg-front {
+}
+
+  .overview-svg-front:hover {
+    opacity: 0;
+    visibility: hidden;
+}
+
+  .overview-svg-over {
+    opacity: 1;
+    visibility: visibile;
+}
+
+  .overview-svg-over:hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+  .overview-svg-text {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    fill: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+  .overview-svg-over-text {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    fill: #fff;
+    font-weight: 300;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+  .overview-svg-text:hover {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    opacity: 0;
+    visibility: hidden;
+}
 
 
 /* ==================================================
