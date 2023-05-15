@@ -424,6 +424,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 100vh;
 }
 
+.hero-big-img {
+  max-width: 70%;
+  height: auto;
+  width: auto
+}
+
 .hero:after {
   content: '';
   z-index: 0;
@@ -456,7 +462,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .tagline {
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-size: 26px;
-  margin: 45px 0 75px 0;
+  margin: 45px 0 70px 0;
   color: #999;
 }
 
